@@ -1,0 +1,19 @@
+@import ".././utils/variables.scss";
+
+.plus-btn {
+  border: none;
+  background: $color-primary;
+  border-radius: 15px 0 15px 15px;
+  width: 4.5rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -2px 27px 46px -11px $color-primary;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    fill: $color-white;
+  }
+}
