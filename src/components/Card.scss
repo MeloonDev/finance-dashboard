@@ -1,0 +1,108 @@
+@import ".././utils/variables.scss";
+
+.card-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 1.2rem;
+  min-width: 22rem;
+  min-height: 13rem;
+  background: $color-card;
+  border-radius: 1.4rem;
+  box-shadow: -8px 8px 0px 0px $color-card-extralight;
+  font-family: "Inconsolata", monospace;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  .circles {
+    position: absolute;
+    top: -5rem;
+    right: -4rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: $color-card-light;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: calc(100% - 2px);
+      height: calc(100% - 2px);
+      background: $color-card;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: calc(100% - 60px);
+      height: calc(100% - 60px);
+      background: $color-card-light;
+      border-radius: 50%;
+    }
+  }
+
+  .card-number,
+  .card-status,
+  .card-info {
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .card-status {
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    .debit {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+
+  .card-number {
+    font-size: 1.5rem;
+  }
+
+  .card-info {
+    .info {
+      font-size: 1rem;
+
+      .gray {
+        color: $color-gray;
+        font-size: 0.9rem;
+      }
+    }
+
+    .visa {
+      flex-grow: 1;
+      height: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      svg {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+}
