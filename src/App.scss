@@ -1,0 +1,9 @@
+@import "./utils/variables.scss";
+
+.App {
+  display: flex;
+  min-height: 100vh;
+  background: $color-background;
+  position: relative;
+  overflow-x: hidden;
+}

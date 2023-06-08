@@ -33,7 +33,7 @@ function MenuIcons() {
   };
 
   return (
-    <div className="wrapper">
+    <div className="icons-wrapper">
       {icons.map((icon) => (
         <button
           className={activeId === icon.id ? "active icon" : "icon"}
