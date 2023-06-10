@@ -1,0 +1,49 @@
+@import ".././utils/variables.scss";
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: $color-primary-dark;
+  }
+
+  .search-bar {
+    background: $color-background-variant;
+    padding: 0 1rem;
+    width: 18rem;
+    height: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      fill: $color-primary-light;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        fill: $color-primary-dark;
+      }
+    }
+
+    input {
+      padding-left: 1rem;
+      border: none;
+      background: none;
+      outline: none;
+      font-family: "Nunito", sans-serif;
+      font-size: 1rem;
+      color: $color-primary-dark;
+      caret-color: $color-primary-dark;
+
+      &::placeholder {
+        color: $color-primary-light;
+      }
+    }
+  }
+}
