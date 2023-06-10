@@ -11,10 +11,20 @@
   justify-content: center;
   box-shadow: -2px 27px 46px -11px $color-primary;
   cursor: pointer;
+  transition: all 0.15s ease-in-out;
 
   svg {
     width: 2rem;
     height: 2rem;
     fill: $color-white;
+  }
+
+  &:hover {
+    transform: scale(1.15);
+  }
+
+  &:active {
+    transform: scale(0.9);
+    background: $color-secondary;
   }
 }
