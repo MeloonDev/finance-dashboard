@@ -123,6 +123,7 @@
       .transaction {
         .transaction-type-icon {
           padding: 1.4rem;
+          box-shadow: 0px 12px 30px -16px $color-primary-dark;
 
           svg {
             width: 1.7rem;
@@ -144,7 +145,7 @@
   }
 }
 
-@media (max-width: 9000px) {
+@media (max-width: 900px) {
   .recent-transactions-wrapper {
     .transaction-date {
       h2 {
@@ -169,6 +170,25 @@
         .value {
           p {
             font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .recent-transactions-wrapper {
+    .transaction-date {
+      .transaction {
+        h3 {
+          font-size: 0.9rem;
+          margin-left: 0.8rem;
+        }
+
+        .value {
+          p {
+            font-size: 1rem;
           }
         }
       }
