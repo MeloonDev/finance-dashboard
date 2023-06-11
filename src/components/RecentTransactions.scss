@@ -106,3 +106,72 @@
     }
   }
 }
+
+@media (max-width: 1750px) {
+  .recent-transactions-wrapper {
+    .recent-transactions-title {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .transaction-date {
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      .transaction {
+        .transaction-type-icon {
+          padding: 1.4rem;
+
+          svg {
+            width: 1.7rem;
+            height: 1.7rem;
+          }
+        }
+
+        h3 {
+          font-size: 1.4rem;
+        }
+
+        .value {
+          p {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 9000px) {
+  .recent-transactions-wrapper {
+    .transaction-date {
+      h2 {
+        font-size: 1.1rem;
+      }
+
+      .transaction {
+        .transaction-type-icon {
+          padding: 1rem;
+
+          svg {
+            width: 1.6rem;
+            height: 1.6rem;
+          }
+        }
+
+        h3 {
+          font-size: 1.1rem;
+          margin-left: 1rem;
+        }
+
+        .value {
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

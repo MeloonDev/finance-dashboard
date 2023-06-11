@@ -66,3 +66,82 @@
     }
   }
 }
+
+@media (max-width: 1750px) {
+  .balance-wrapper {
+    .balance {
+      h1 {
+        font-size: 1.3rem;
+      }
+    }
+
+    .balance-info {
+      .spendings,
+      .earnings {
+        .icon {
+          width: 3.5rem;
+          height: 3.5rem;
+          margin-right: 0.3rem;
+
+          svg {
+            width: 1.4rem;
+            height: 1.4rem;
+          }
+        }
+
+        .info {
+          h3 {
+            font-size: 1.05rem;
+          }
+
+          h2 {
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .balance-wrapper {
+    .balance {
+      h1 {
+        font-size: 1.1rem;
+      }
+    }
+
+    .balance-info {
+      .spendings,
+      .earnings {
+        .icon {
+          width: 3.3rem;
+          height: 3.3rem;
+
+          svg {
+            width: 1.3rem;
+            height: 1.3rem;
+          }
+        }
+
+        .info {
+          h3 {
+            font-size: 0.9rem;
+          }
+
+          h2 {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 760px) {
+  .balance-wrapper {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+  }
+}

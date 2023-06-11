@@ -45,3 +45,9 @@ div.icons-wrapper {
     transition: all 0.2s ease 0s;
   }
 }
+
+@media (max-height: 800px) {
+  div.icons-wrapper {
+    gap: 1.3rem;
+  }
+}

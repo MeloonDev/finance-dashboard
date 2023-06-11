@@ -19,3 +19,26 @@
     background-position: center;
   }
 }
+
+@media (max-width: 1750px) {
+  .profile-wrapper {
+    .profile-picture {
+      width: 6rem;
+      height: 6rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-height: 740px) {
+  .profile-wrapper {
+    margin-top: 1rem;
+  }
+}

@@ -44,3 +44,50 @@
     }
   }
 }
+
+@media (max-width: 1750px) {
+  .balance-graph-wrapper {
+    width: 85%;
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    .balance-graph {
+      height: 8rem;
+
+      .balance-graph-item {
+        .balance-graph-bar {
+          width: 1.9rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .balance-graph-wrapper {
+    h3 {
+      font-size: 0.9rem;
+    }
+
+    .balance-graph {
+      height: 7rem;
+      gap: 0.5rem;
+
+      .balance-graph-item {
+        .balance-graph-bar {
+          width: 1.9rem;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+}

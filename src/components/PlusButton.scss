@@ -28,3 +28,15 @@
     background: $color-secondary;
   }
 }
+
+@media (max-width: 1750px) {
+  .plus-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}

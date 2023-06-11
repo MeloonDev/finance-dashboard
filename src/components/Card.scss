@@ -106,3 +106,91 @@
     }
   }
 }
+
+@media (max-width: 1750px) {
+  .card-wrapper {
+    min-width: 18rem;
+    min-height: 11rem;
+
+    .circles {
+      width: 12rem;
+      height: 12rem;
+    }
+
+    .card-status {
+      svg {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+    }
+
+    .card-number {
+      font-size: 1.2rem;
+    }
+
+    .card-info {
+      .info {
+        font-size: 0.9rem;
+
+        .gray {
+          font-size: 0.8rem;
+        }
+      }
+
+      .visa {
+        svg {
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .card-wrapper {
+    min-width: 16rem;
+    min-height: 10rem;
+
+    .circles {
+      width: 11rem;
+      height: 11rem;
+    }
+
+    .card-status {
+      svg {
+        width: 1.4rem;
+        height: 1.4rem;
+      }
+
+      h3 {
+        font-size: 0.9rem;
+      }
+    }
+
+    .card-number {
+      font-size: 1.1rem;
+    }
+
+    .card-info {
+      .info {
+        font-size: 0.8rem;
+
+        .gray {
+          font-size: 0.7rem;
+        }
+      }
+
+      .visa {
+        svg {
+          width: 2.8rem;
+          height: 2.8rem;
+        }
+      }
+    }
+  }
+}

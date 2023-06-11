@@ -68,3 +68,43 @@
     }
   }
 }
+
+@media (max-width: 1750px) {
+  .cards-list-wrapper {
+    gap: 1.5rem;
+
+    .card {
+      .card-desc {
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        h2 {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .cards-list-wrapper {
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .card {
+      width: 14rem;
+      height: 5rem;
+
+      .card-desc {
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        h2 {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}

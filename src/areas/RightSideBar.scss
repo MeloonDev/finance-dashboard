@@ -12,9 +12,26 @@ nav {
   gap: 1rem;
   background: $color-white;
 
-  svg {
+  .logo {
     width: 120px;
     height: 45px;
-    fill: none;
+    background-image: url("../assets/logoText.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+@media (max-width: 1750px) {
+  nav {
+    .logo {
+      background-image: url("../assets/logo.svg");
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  nav {
+    width: 18%;
   }
 }
